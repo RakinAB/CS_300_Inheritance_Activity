@@ -3,8 +3,8 @@
 
 //CLASS ANIMAL
 std::string Animal::displayInfo(){
-    std::cout << "Name: " << getName() << " Age: " << getAge() << std::endl;
-    std::cout << "Type: " << getType() << std::end;
+    std::cout << "Name: " << this->getName() << " Age: " << this->getAge() << std::endl;
+    std::cout << "Type: " << this->getType() << std::end;
 }
 
 //Getters and Setters : ANIMAL
@@ -34,13 +34,13 @@ void Animal::setType(string t){
 
 //SUBCLASS DOG AND CAT
 std::string Dog::displayInfo(){
-    std::cout << "Name: " << getName() << " Age: " << getAge() << std::endl;
-    std::cout << "Type: " << getType() <<  " Breed: " << getBreed() << std::endl;
+    std::cout << "Name: " << this->getName() << " Age: " << this->getAge() << std::endl;
+    std::cout << "Type: " << this->getType() <<  " Breed: " << this->getBreed() << std::endl;
 }
 
 std::string Cat::displayInfo(){
-    std::cout << "Name: " << getName() << " Age: " << getAge() << std::endl;
-    std::cout << "Type: " << getType() <<  " Breed: " << getBreed() << std::endl;
+    std::cout << "Name: " << this->getName() << " Age: " << this->getAge() << std::endl;
+    std::cout << "Type: " << this->getType() <<  " Breed: " << this->getBreed() << std::endl;
 }
 
 //Getters and Setters: Cat and Dog
