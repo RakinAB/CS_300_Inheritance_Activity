@@ -2,6 +2,7 @@
 #define _ANIMAL_H
 
 #include <string>
+
 class Animal{
     protected:
         Animal();
