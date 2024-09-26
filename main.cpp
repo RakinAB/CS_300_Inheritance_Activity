@@ -1,12 +1,12 @@
+#include <iostream>
+#include <vector>
 #include "Animal.h"
-#include "Cat.h"
-#include "Dog.h"
 #include "Shelter.h"
 
 int main () {
     
     //Initialize instance of Shelter class
-    std::vector<Animal*> animalVector = new;
+    std::vector<Animal*> animalVector;
     //Add sample object to vector of pointers that point to animal objects.
 
 
@@ -32,7 +32,7 @@ int main () {
         {
             //Add a Dog
             case 1: {
-                Animal* dog = new;
+                Animal* dog;
 
                 //Get user input for name, age, type, and breed.
                 std::string dogName;
@@ -60,27 +60,27 @@ int main () {
             }
             //Add a Cat
             case 2: {
-                Animal* cat = new;
+                Animal* cat;
                 //Get user input for name, age, type, and breed.
                 std::string catName;
                 std::cout << "Enter the cat's name: " << std::endl;
                 std::getline(std::cin, catName);
                 std::cout << "-------------------------------" << std::endl;
-                dog->setName(catName);
+                cat->setName(catName);
 
                 int catAge;
                 std::cout << "Enter the animal's age: " << std::endl;
                 std::getline(std::cin, catAge);
                 std::cout << "-------------------------------" << std::endl;
-                dog->setAge(catAge);
+                cat->setAge(catAge);
 
-                dog->setType("Cat");
+                cat->setType("Cat");
 
                 std::string catBreed;
                 std::cout << "Enter the cat's breed: " << std::endl;
                 std::getline(std::cin, catBreed);
                 std::cout << "-------------------------------" << std::endl;
-                dog->setBreed(catBreed);
+                cat->setBreed(catBreed);
 
                 animalVector->addAnimal(cat);
                 break;

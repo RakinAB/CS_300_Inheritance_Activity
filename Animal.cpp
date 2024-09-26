@@ -13,7 +13,7 @@ std::string Animal::getName(){
     return name;
 }
 
-void Animal::setName(string n){
+void Animal::setName(std::string n){
     this -> name = n;
 }
 
@@ -29,14 +29,14 @@ std::string Animal::getType(){
     return type;
 }
 
-void Animal::setType(string t){
+void Animal::setType(std::string t){
     this -> type = t;
 }
 
 //SUBCLASS DOG AND CAT
 std::string Dog::displayInfo(){
-    std::cout << "Name: " << this->getName() << " Age: " << this->getAge() << std::endl;
-    std::cout << "Type: " << this->getType() <<  " Breed: " << this->getBreed() << std::endl;
+    std::cout << "Name: " << getName() << " Age: " << this->getAge() << std::endl;
+    std::cout << "Type: " << getType() <<  " Breed: " << this->getBreed() << std::endl;
 }
 
 std::string Cat::displayInfo(){
@@ -54,7 +54,7 @@ std::string Cat::getBreed(){
 }
 
 void Dog::setBreed(std::string br){
-    this -> breed = br;
+    this->breed = br;
 }
 
 void Cat::setBreed(std::string br){
