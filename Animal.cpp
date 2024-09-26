@@ -25,7 +25,7 @@ void Animal::setAge(int years){
     this -> age = years;
 }
 
-std::string getType(){
+std::string Animal::getType(){
     return type;
 }
 
