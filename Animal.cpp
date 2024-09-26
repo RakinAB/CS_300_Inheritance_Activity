@@ -3,7 +3,7 @@
 
 //CLASS ANIMAL
 
-std::string Animal::displayInfo(){
+void Animal::displayInfo(){
     std::cout << "Name: " << this->getName() << " Age: " << this->getAge() << std::endl;
     std::cout << "Type: " << this->getType() << std::endl;
 }
