@@ -2,6 +2,8 @@
 #include <iostream>
 
 //CLASS ANIMAL
+Animal::
+
 std::string Animal::displayInfo(){
     std::cout << "Name: " << this->getName() << " Age: " << this->getAge() << std::endl;
     std::cout << "Type: " << this->getType() << std::end;
@@ -13,7 +15,7 @@ std::string getName(){
 }
 
 void Animal::setName(string n){
-    name = n;
+    this -> name = n;
 }
 
 int Animal::getAge(){
@@ -21,7 +23,7 @@ int Animal::getAge(){
 }
 
 void Animal::setAge(int years){
-    age = years;
+    this -> age = years;
 }
 
 std::string getType(){
@@ -29,7 +31,7 @@ std::string getType(){
 }
 
 void Animal::setType(string t){
-    type = t;
+    this -> type = t;
 }
 
 //SUBCLASS DOG AND CAT
@@ -53,9 +55,9 @@ std::string Cat::getBreed(){
 }
 
 void Dog::setBreed(std::string br){
-    breed = br;
+    this -> breed = br;
 }
 
 void Cat::setBreed(std::string br){
-    breed = br;
+    this -> breed = br;
 }

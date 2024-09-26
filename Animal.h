@@ -26,7 +26,7 @@ class Animal{
 class Dog : public Animal(){
     public:
 
-        Dog(std::string breed);
+        Dog(std::string n, int a, std::string t, std::string breed);
         //Override Animal's displayInfo, will include the breed
         void displayInfo();
 
@@ -36,7 +36,7 @@ class Dog : public Animal(){
 
 class Cat : public Animal(){
     public:
-        Cat(std::string breed);
+        Cat(std::string n, int a, std::string t, std::string breed);
 
         //Override Animal's displayInfo, will include the breed
         void displayInfo()
