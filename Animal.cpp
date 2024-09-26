@@ -9,7 +9,7 @@ void Animal::displayInfo(){
 }
 
 //Getters and Setters : ANIMAL
-std::string getName(){
+std::string Animal::getName(){
     return name;
 }
 
