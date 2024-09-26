@@ -2,11 +2,10 @@
 #include <iostream>
 
 //CLASS ANIMAL
-Animal::
 
 std::string Animal::displayInfo(){
     std::cout << "Name: " << this->getName() << " Age: " << this->getAge() << std::endl;
-    std::cout << "Type: " << this->getType() << std::end;
+    std::cout << "Type: " << this->getType() << std::endl;
 }
 
 //Getters and Setters : ANIMAL
