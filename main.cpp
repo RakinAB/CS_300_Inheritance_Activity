@@ -1,7 +1,6 @@
 #include "Animal.h"
-#include "Cat.h"
-#include "Dog.h"
 #include "Shelter.h"
+#include <iostream>
 
 int main () {
     
