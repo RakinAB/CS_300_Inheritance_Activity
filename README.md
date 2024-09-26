@@ -5,3 +5,4 @@ Members:
   - Rakin Bhuyan
   - Hunter Gulledge
   - Alex Wright
+  - Son Nguyen

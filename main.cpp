@@ -2,6 +2,7 @@
 #include <vector>
 #include "Animal.h"
 #include "Shelter.h"
+#include <iostream>
 
 int main () {
     
