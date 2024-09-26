@@ -21,7 +21,7 @@ class Animal{
 
         int getAge();
         void setAge(int years);
-}
+};
 
 class Dog : public Animal(){
     public:
@@ -32,7 +32,7 @@ class Dog : public Animal(){
 
         std::string getBreed();
         void setBreed();
-}
+};
 
 class Cat : public Animal(){
     public:
@@ -42,5 +42,5 @@ class Cat : public Animal(){
         void displayInfo()
         std::string getBreed();
         void setBreed();
-}
+};
 #endif
